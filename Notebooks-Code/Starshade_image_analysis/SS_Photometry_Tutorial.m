@@ -1,4 +1,4 @@
-% First of all, download the FITS file of (1) from the Box folder: WFIRST_CGI-2019-DC-Tutorial>Data>SS, and the PSF FITS file in step (3) from WFIRST_CGI-2019-RealDC-SS>SS CAL. If you download them in separate folders, please update your local paths below.
+% First of all, download the FITS file of step (1) and the PSF FITS file in step (3).
 
 % 1) Opening some simulated data, equivalent to the HLC simulation but for the starshade.
 data = fitsread( 'starshade_run_dc2_jitter_perturbedSS_solar_glint_with_extragalactic_background_and_5exozodi_photometry_emgain_4000_time_per_frame_6sec_total_integration_105600sec_with_emccd.fits' ) ;
