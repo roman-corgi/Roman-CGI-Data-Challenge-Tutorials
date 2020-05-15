@@ -1,5 +1,5 @@
 # WFIRST-CGI-Data-Challenge-Tutorials
-Tutorial notebooks and data sets for the WFIRST Exoplanet Imaging Data Challenge
+Tutorial notebooks and data sets for the [WFIRST Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 Most notebooks are Python3/Jupyter notebooks that should run smoothly with the most recent stable numpy, scipy, and astropy packages distributed through Anaconda. Additional package dependencies are noted here each tutorial.
 
