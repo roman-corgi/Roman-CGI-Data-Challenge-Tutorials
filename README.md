@@ -33,7 +33,7 @@ The simulated WFIRST Hybrid Lyot Coronagraph (HLC) images are the core component
 
    ### Starshade data
    
-   As in the official data challenge, this tutorial data set includes two final epochs of images of the scientific target     observed with a WFIRST starshade rendezvous mission. The starshade images were simulated using the [SISTER](http://sister.caltech.edu) starshade simulation toolkit. The starshade data and calibration FITS files are stored under `WFIRST-CGI-Data-Challenge-Tutorials/Data/SS/`.
+   As in the official data challenge, this tutorial data set includes two final epochs of images of the scientific target     observed with a WFIRST starshade rendezvous mission. The starshade images were simulated using the [SISTER](http://sister.caltech.edu) starshade simulation toolkit. The starshade data and calibration FITS files are stored under [Data/SS](Data/SS).
    
    ### Tutorial script and presentation
    
