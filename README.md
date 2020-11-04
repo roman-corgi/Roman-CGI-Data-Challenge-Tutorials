@@ -5,7 +5,9 @@ The analysis Jupyter notebooks rely on a number of packages outside of the
 Python numerical core libraries (Numpy and Scipy). All of these depencies can
 be installed through conda and/or pip installation commands. The simplest way
 to ensure smooth execution is to clone the conda Python 3.7 environment
-specified in the file [environment.yml](environment.yml).
+specified in the file [conda_environment.yml](conda_environment.yml):
+
+`conda env create --file conda_environment.yml`
 
 A brief summary of the file organization follows.
 
