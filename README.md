@@ -1,4 +1,4 @@
-# Roman CGI Data Challenge: Official (in-house) analysis notebooks
+# Roman CGI Data Challenge: Official in-house analysis notebooks
 Official (in-house) analysis notebooks and data sets for the [Roman Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 The analysis Jupyter notebooks rely on a number of packages outside of the
