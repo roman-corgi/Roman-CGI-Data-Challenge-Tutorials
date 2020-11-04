@@ -1,0 +1,4 @@
+value,mass (M_jup),radius (M_jup),albedo
+lower,0.71,0.91,0.25
+median,0.93,0.95,0.43
+upper,1.24,1.00,1.00
