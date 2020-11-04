@@ -47,7 +47,7 @@ The notebooks in [Analysis/official2019](Analysis/official2019) demonstrate a co
 
    2. [Analysis/official2019/02-HLC_RDI.ipynb](Analysis/official2019/02-HLC_RDI.ipynb) - Reference differential imaging.
 
-   3.--6. Astrometry and photometry for the 4 epochs of HLC images.
+   3. -- 6. Astrometry and photometry for the 4 epochs of HLC images.
    
    7. Astrometry and photometry for one of the starshade images (only one of two starshade epochs has a detection for the demonstration planet).
 
