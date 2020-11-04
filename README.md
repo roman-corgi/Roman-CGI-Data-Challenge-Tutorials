@@ -1,16 +1,15 @@
 # Roman CGI Data Challenge: Official in-house analysis notebooks
 Official (in-house) analysis notebooks and data sets for the [Roman Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
-The analysis Jupyter notebooks rely on a number of packages outside of the
-Python numerical core libraries (Numpy and Scipy). All of these depencies can
-be installed through conda and/or pip installation commands. The simplest way
-to ensure smooth execution is to clone the conda Python 3.7 environment
+These Jupyter Python notebooks rely on various packages outside of the
+standard numerical libraries. All of these dependencies can
+be installed through `conda install`/`pip install` commands. The best way
+to ensure smooth execution is to clone the Anaconda Python 3.7 environment
 specified in the file [conda_environment.yml](conda_environment.yml):
 
 `conda env create --file conda_environment.yml`
 
 A brief summary of the file organization follows.
-
 
 ## 1. Data
 
@@ -43,19 +42,19 @@ A brief summary of the file organization follows.
    
 The notebooks in [Analysis/official2019](Analysis/official2019) demonstrate a complete end-to-end analysis for one of the planets in the official data challenge system. This is not meant to represent a state-of-the-art analysis, but rather a proof-of-concept retrieval of astrometry, photometry, orbit, and geometric albedo.
 
-   0. [Analysis/official2019/00-RUN_ALL.ipynb](Analysis/official2019/00-RUN_ALL.ipynb) - This runs all of the notebooks described below in sequence. Total execution time is roughly 40 minutes (limited by orbit fitting MCMC). Running this and Checking for successful completion can be used to verify the software environment.
+   - [Analysis/official2019/00-RUN_ALL.ipynb](Analysis/official2019/00-RUN_ALL.ipynb) - This runs all of the notebooks described below in sequence. Total execution time is roughly 40 minutes (limited by orbit fitting MCMC). Running this and Checking for successful completion can be used to verify the software environment.
 
-   1. [Analysis/official2019/01-centered_HLC_PSF.ipynb](Analysis/official2019/01-centered_HLC_PSF.ipynb) - This notebook prepares a centered model of the HLC PSF, based on the calibration PSF files.
+   - [Analysis/official2019/01-centered_HLC_PSF.ipynb](Analysis/official2019/01-centered_HLC_PSF.ipynb) - This notebook prepares a centered model of the HLC PSF, based on the calibration PSF files.
 
-   2. [Analysis/official2019/02-HLC_RDI.ipynb](Analysis/official2019/02-HLC_RDI.ipynb) - Reference differential imaging.
+   - [Analysis/official2019/02-HLC_RDI.ipynb](Analysis/official2019/02-HLC_RDI.ipynb) - Reference differential imaging.
 
-   3. -- 6. Astrometry and photometry for the 4 epochs of HLC images.
+   - Astrometry and photometry for the 4 epochs of HLC images.
    
-   7. Astrometry and photometry for one of the starshade images (only one of two starshade epochs has a detection for the demonstration planet).
+   - Astrometry and photometry for one of the starshade images (only one of two starshade epochs has a detection for the demonstration planet).
 
-   8. Radial velocity analysis (with radvel).
+   - Radial velocity analysis (with [radvel](https://github.com/California-Planet-Search/radvel)).
 
-   9. Orbit fitting (with orbitize).
+   - Orbit fitting (with [orbitize](https://github.com/sblunt/orbitize)).
 
-   10. Phase curve analysis and albedo retrieval.
+   - Photometric phase curve analysis and mass/radius/albedo retrieval.
 
