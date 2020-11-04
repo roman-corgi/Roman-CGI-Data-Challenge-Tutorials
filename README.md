@@ -1,15 +1,15 @@
-# WFIRST-CGI-Data-Challenge-Tutorials
-Tutorial notebooks and data sets for the [WFIRST Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
+# Roman-CGI-Data-Challenge-Tutorials
+Tutorial notebooks and data sets for the [Roman Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 Most notebooks are Python3/Jupyter notebooks that should run smoothly with the most recent stable numpy, scipy, and astropy packages distributed through Anaconda. Additional package dependencies are noted here each tutorial.
 
 ## 1. HLC image analysis
 
-The simulated WFIRST Hybrid Lyot Coronagraph (HLC) images are the core component of the data challenge. In the tutorial data set, as in the official data challenge, there are 4 epochs of observation one scientific target star. At each epoch, images of the target are acquired at two observatory roll angles.
+The simulated Roman Hybrid Lyot Coronagraph (HLC) images are the core component of the data challenge. In the tutorial data set, as in the official data challenge, there are 4 epochs of observation one scientific target star. At each epoch, images of the target are acquired at two observatory roll angles.
 
    ### HLC data
 
-   The simulated WFIRST Hybrid Lyot Coronagraph (HLC) images are stored under [Data/HLC/](Data/HLC/).
+   The simulated Roman Hybrid Lyot Coronagraph (HLC) images are stored under [Data/HLC/](Data/HLC/).
 
    There are three subdirectories:
 
@@ -33,7 +33,7 @@ The simulated WFIRST Hybrid Lyot Coronagraph (HLC) images are the core component
 
    ### Starshade data
    
-   As in the official data challenge, this tutorial data set includes two final epochs of images of the scientific target     observed with a WFIRST starshade rendezvous mission. The starshade images were simulated using the [SISTER](http://sister.caltech.edu) starshade simulation toolkit. The starshade data and calibration FITS files are stored under [Data/SS](Data/SS).
+   As in the official data challenge, this tutorial data set includes two final epochs of images of the scientific target     observed with a Roman starshade rendezvous mission. The starshade images were simulated using the [SISTER](http://sister.caltech.edu) starshade simulation toolkit. The starshade data and calibration FITS files are stored under [Data/SS](Data/SS).
    
    ### Tutorial script and presentation
    
