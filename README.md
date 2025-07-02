@@ -1,4 +1,7 @@
 # Roman-CGI-Data-Challenge-Tutorials
+
+>**Note** This repository is archived and unsupported.
+
 Tutorial notebooks and data sets for the [Roman Exoplanet Imaging Data Challenge](https://www.exoplanetdatachallenge.com/)
 
 Most notebooks are Python3/Jupyter notebooks that should run smoothly with the most recent stable numpy, scipy, and astropy packages distributed through Anaconda. Additional package dependencies are noted here each tutorial.
